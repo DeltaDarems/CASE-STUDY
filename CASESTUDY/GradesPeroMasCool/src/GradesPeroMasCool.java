@@ -359,7 +359,8 @@ public class GradesPeroMasCool {
         System.out.println("English Grade: " + grades[name][1]);
         System.out.println("Math Grade: " + grades[name][2]);
         System.out.println("ComProg Grade: "+ grades[name][3]);
-
+        
+        sum = 0;
         for (int i = 0; i <= 3; i++){
             sum += grades[name][i];
         }
@@ -394,6 +395,7 @@ public class GradesPeroMasCool {
                     grades[name][1] = 0;
                     grades[name][2] = 0;
                     grades[name][3] = 0;
+                    average = 0;
                 }
                 case "2" -> {
                     for(int i = 0; i <= 3; i++){
@@ -411,6 +413,7 @@ public class GradesPeroMasCool {
                     grades[name][1] = 0;
                     grades[name][2] = 0;
                     grades[name][3] = 0;
+                    average = 0;
                 }
                 case "x", "X" -> {
                     return;
@@ -460,6 +463,7 @@ public class GradesPeroMasCool {
                     grades[name][1] = 0;
                     grades[name][2] = 0;
                     grades[name][3] = 0;
+                    average = 0;
                 }
                 case "2" -> {
                     for(int i = 0; i <= 3; i++){
@@ -480,6 +484,7 @@ public class GradesPeroMasCool {
                     grades[name][1] = 0;
                     grades[name][2] = 0;
                     grades[name][3] = 0;
+                    average = 0;
                 }
                 case "x", "X" -> {
                     return;
