@@ -69,7 +69,7 @@ public class GradesPeroMasCool {
         String name;
         boolean studentsRuntime = true;
 
-        while (studentsRuntime = true) {
+        while (studentsRuntime == true) {
 
             System.out.println("Record the names of your students: \n");
             System.out.println("1. " + names[0]);
@@ -143,7 +143,7 @@ public class GradesPeroMasCool {
                     }
                 }
                 if (i != 0 && index != 0) {
-                    while (i != 0 && index != 0) {
+                    while (i == index) {
                         System.out.println("\nCurrent name: " + names[i]);
                         System.out.println("\n1. Go to the next student");
                         System.out.println("2. Go to the previous stundent");
@@ -389,7 +389,7 @@ public class GradesPeroMasCool {
         nameResultChoice = sc.nextLine();
             switch(nameResultChoice){
                 case "1" ->{
-                    names[name] = "___";
+                    names[name] = "____";
                     grades[name][0] = 0;
                     grades[name][1] = 0;
                     grades[name][2] = 0;
@@ -406,7 +406,7 @@ public class GradesPeroMasCool {
                     name++;
                 }
                 case "0" -> {
-                    names[name] = "___";
+                    names[name] = "____";
                     grades[name][0] = 0;
                     grades[name][1] = 0;
                     grades[name][2] = 0;
@@ -445,7 +445,7 @@ public class GradesPeroMasCool {
         } else {
             System.out.println("\nBat ka kasi nalate, yan tuloy bagsak midterms mo ulit sa GEFIL");
         }
-        
+
         System.out.println("\n1. Submit this record to the official record? (Will delete this record");
         System.out.println("2. Modify the grades");
         System.out.println("3. Go to the next record");
@@ -455,7 +455,7 @@ public class GradesPeroMasCool {
         nameResultChoice = sc.nextLine();
             switch(nameResultChoice){
                 case "1" ->{
-                    names[name] = "___";
+                    names[name] = "____";
                     grades[name][0] = 0;
                     grades[name][1] = 0;
                     grades[name][2] = 0;
@@ -475,7 +475,7 @@ public class GradesPeroMasCool {
                     name--;
                 }
                 case "0" -> {
-                    names[name] = "___";
+                    names[name] = "____";
                     grades[name][0] = 0;
                     grades[name][1] = 0;
                     grades[name][2] = 0;
